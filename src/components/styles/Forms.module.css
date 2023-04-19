@@ -1,0 +1,96 @@
+.container_form{
+    box-shadow: 5px 10px 8px 10px #888888;
+    padding: 30px;
+}
+
+.container_form form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.input{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input input{
+    padding: 20px;
+    width: 500px;
+    margin: 10px;
+    margin-left: -5px;
+    border-radius: 10px;
+}
+
+.input input::placeholder{
+    font-size: 15px;
+}
+
+.input label{
+    color: gray;
+    font-weight: bold;
+}
+
+.textArea{
+    padding: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textArea textarea{
+    width: 510px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.textArea label{
+    color: gray;
+    font-weight: bold;
+}
+
+.container_select{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+}
+
+.container_select select{
+    padding: 13px;
+    border-radius: 10px;
+    color: rgb(83, 83, 83);
+    margin-bottom: 15px;
+}
+
+.container_form option{
+    padding: 10px;
+}
+
+.container_select label{
+    color: gray;
+    font-weight: bold;
+}
+
+.btn{
+    text-decoration: none;
+    border: 4px solid rgb(8, 182, 5);
+    background-color: rgb(8, 182, 5);
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    color: white;
+    cursor: pointer;
+}

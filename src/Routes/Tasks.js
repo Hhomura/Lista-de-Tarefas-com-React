@@ -1,7 +1,11 @@
+import Forms from "../components/TaskComponents/Forms"
+
 export default(() =>{
+
+
     return(
         <div>
-            <h1>Tasks</h1>
+            <Forms/>
         </div>
     )
 })
