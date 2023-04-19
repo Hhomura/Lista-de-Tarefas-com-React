@@ -1,0 +1,26 @@
+.header{
+    height: 300px;
+    background-image: url("https://i.pinimg.com/originals/8c/4f/7f/8c4f7f3b0041ff75a684e9385d4a2059.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header div{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0.674);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h2{
+    font-size: 50px;
+    box-shadow: 10px 10px 8px #1f1f1f;
+    transition: 0.3s;
+}
+
+.header h2:hover{
+    font-size: 60px;
+    box-shadow: 13px 13px 11px #1f1f1f;
+}

@@ -1,0 +1,37 @@
+.footer{
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer ul{
+    display: flex;
+    margin-top: 150px;
+}
+
+.footer li{
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.footer a{
+    color:wheat;
+    height: 50px;
+    width: 50px;
+}
+
+.footer svg{
+    font-size: 2em;
+}
+
+.footer span{
+    color: gray;
+}
+
+.footer p{
+    color: white;
+}
