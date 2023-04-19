@@ -2,6 +2,7 @@ import { BrowserRouter, RouterProvider, createBrowserRouter } from 'react-router
 import Main from './Main';
 import Tasks from './Routes/Tasks';
 import AboutMe from './Routes/AboutMe';
+import Home from './Routes/Home';
 
 
 const router = createBrowserRouter([
@@ -9,6 +10,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <Main/>,
     children:[
+      {
+        path:'/',
+        element: <Home/>
+      },
       {
         path: '/Tasks',
         element: <Tasks/>
