@@ -9,7 +9,7 @@ export default (() =>{
         <div>
             <Head/>
             <NavBar/>
-            <div style={{minHeight: 750, justifyContent: "center", alignItems: 'center', display: "flex"}}>
+            <div style={{minHeight: 750, display: "flex"}}>
             <Outlet/>
             </div>
             <Footer/>

@@ -1,0 +1,35 @@
+.container_tasks{
+    height: auto;
+    width: 100%;
+}
+
+.container_tasks h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container_tasks .head{
+    display: flex;
+    justify-content: end;
+    margin-right: 80px;
+}
+
+.container_tasks button{
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    background-color: rgb(8, 182, 5);
+    color: white;
+    font-weight: bold;
+    border: 2px solid;
+    transition: 0.5s;
+}
+
+.container_tasks button:hover{
+    cursor: pointer;
+    padding: 35px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-radius: 15px;
+}
