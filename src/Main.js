@@ -9,7 +9,7 @@ export default (() =>{
         <div>
             <Head/>
             <NavBar/>
-            <div style={{minHeight: 750, display: "flex"}}>
+            <div style={{display: "flex"}}>
             <Outlet/>
             </div>
             <Footer/>

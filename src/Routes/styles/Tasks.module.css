@@ -1,6 +1,7 @@
 .container_tasks{
     height: auto;
     width: 100%;
+    min-height: 500px;
 }
 
 .container_tasks h1{

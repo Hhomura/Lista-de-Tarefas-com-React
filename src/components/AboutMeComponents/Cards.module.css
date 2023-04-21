@@ -1,0 +1,30 @@
+.card_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card_container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.cards h2{
+    color: white;
+    margin-right: 70px;
+}

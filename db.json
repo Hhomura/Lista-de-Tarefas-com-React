@@ -1,74 +1,14 @@
 {
   "tasks": [
     {
-      "Name": "Atividade de Algoritmos",
-      "description": "Treinos Com Java",
-      "Prazo": "2023-04-29",
+      "Name": "Nova Tarefa",
+      "Prazo": "2023-04-03",
+      "description": "Nine Lives Berserck",
       "prioritys": {
         "id": "4",
         "name": "Prioridade Máxima"
       },
       "id": 1
-    },
-    {
-      "0": {
-        "Name": "Atividade de Algoritmos",
-        "description": "Treinos Com Java",
-        "Prazo": "2023-04-29",
-        "prioritys": {
-          "id": "3",
-          "name": "Muito Alta"
-        },
-        "id": 1
-      },
-      "Name": "Projeto Android",
-      "Prazo": "2023-05-02",
-      "description": "Aprender Kotlin e Padrões de `rojeto",
-      "prioritys": {
-        "id": "3",
-        "name": "Muito Alta"
-      },
-      "id": 2
-    },
-    {
-      "0": {
-        "Name": "Atividade de Algoritmos",
-        "description": "Treinos Com Java",
-        "Prazo": "2023-04-29",
-        "prioritys": {
-          "id": "3",
-          "name": "Muito Alta"
-        },
-        "id": 1
-      },
-      "1": {
-        "0": {
-          "Name": "Atividade de Algoritmos",
-          "description": "Treinos Com Java",
-          "Prazo": "2023-04-29",
-          "prioritys": {
-            "id": "3",
-            "name": "Muito Alta"
-          },
-          "id": 1
-        },
-        "Name": "Projeto Android",
-        "Prazo": "2023-05-02",
-        "description": "Aprender Kotlin e Padrões de `rojeto",
-        "prioritys": {
-          "id": "3",
-          "name": "Muito Alta"
-        },
-        "id": 2
-      },
-      "Name": "Tradução de Livros",
-      "Prazo": "2023-04-17",
-      "description": "do Português para o Inglês",
-      "prioritys": {
-        "id": "4",
-        "name": "Prioridade Máxima"
-      },
-      "id": 3
     }
   ],
   "prioritys": [
