@@ -3,8 +3,7 @@ import styles from '../styles/Forms.module.css'
 import SelectForm from "./SelectForm"
 import SubmitForm from "./SubmitForm"
 import { useEffect, useState } from "react"
-import TextArea from "./TextArea"
-import Database from "../../Database"
+import Database from "../../APIs/Database"
 
 export default(({taskData, handleSubmit, hiddenForm}) =>{
 
@@ -41,7 +40,7 @@ export default(({taskData, handleSubmit, hiddenForm}) =>{
             <form onSubmit={submit}>
                 <InputForm name="Name" onEventClick={handleChange} placeholder="Nome" type="text"/>
                 <InputForm name="Prazo" onEventClick={handleChange} placeholder="Prazo" type="date"/>
-                <TextArea name="Description" id="" onEventClick={handleChange}/>
+                <InputForm name="description" onEventClick={handleChange} placeholder="Descrição" type="text"/>
                 <SelectForm priority={prioritys} name="prioritys.id" onEventClick={handleChangePriority} text= "Priority" value={tasks.prioritys? tasks.prioritys.id: ''}/>
                 <SubmitForm text="Adicionar Task"/>
             </form>

@@ -3,6 +3,7 @@ import Main from './Main';
 import Tasks from './Routes/Tasks';
 import AboutMe from './Routes/AboutMe';
 import Home from './Routes/Home';
+import Task from './components/TaskComponents/Task';
 
 
 const router = createBrowserRouter([
@@ -20,6 +21,9 @@ const router = createBrowserRouter([
       },{
         path: '/AboutMe',
         element: <AboutMe/>
+      },{
+        path: '/Tasks/:id',
+        element: <Task/>
       }
     ]
   }

@@ -4,6 +4,7 @@
     height: auto;
     width: 40%;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .container_form form{
@@ -37,14 +38,7 @@
     font-weight: bold;
 }
 
-.textArea{
-    padding: 20px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.textArea textarea{
+.textArea input{
     width: 510px;
     padding: 10px;
     border-radius: 10px;

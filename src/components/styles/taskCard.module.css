@@ -1,0 +1,42 @@
+.card_container{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_container h2{
+    font-weight:bold;
+    margin-bottom: 10px;
+    color: rgb(86, 86, 86);
+    font-size: 25px;
+}
+
+.card_container p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: gray;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons button{
+    margin: 10px;
+}
+
+#delete{
+    background-color: red;
+}
+
+#update{
+    background-color: blue;
+}

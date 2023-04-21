@@ -1,7 +1,7 @@
 import {BsFillJournalBookmarkFill} from 'react-icons/bs'
 import styles from './styles/Home.module.css'
 import { Link } from 'react-router-dom'
-import Database from '../Database'
+import Database from '../APIs/Database'
 
 export default (() =>{
 
