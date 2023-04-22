@@ -1,16 +1,5 @@
 {
-  "tasks": [
-    {
-      "Name": "Nova Tarefa",
-      "Prazo": "2023-04-03",
-      "description": "Nine Lives Berserck",
-      "prioritys": {
-        "id": "4",
-        "name": "Prioridade Máxima"
-      },
-      "id": 1
-    }
-  ],
+  "tasks": [],
   "prioritys": [
     {
       "id": 1,

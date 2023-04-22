@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import styles from '../styles/message.module.css'
+import responsive from '../../Responsive/Message.module.css'
 
 export default (({ type, message }) => {
 
@@ -20,7 +21,7 @@ export default (({ type, message }) => {
     return (
         <>
             {visible && (
-                <div className={`${styles.message} ${styles[type]}`}>
+                <div className={`${styles.message} ${responsive.responsive_message} ${styles[type]}`}>
                     {message}
                 </div>
             )}

@@ -4,6 +4,7 @@ import InputForm from './InputForm';
 import SelectForm from './SelectForm';
 import SubmitForm from './SubmitForm';
 import Database from '../../APIs/Database';
+import responsive from '../../Responsive/TasksComponents/Form.module.css'
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
 
 export default(() =>{
@@ -50,7 +51,7 @@ export default(() =>{
     return(
 
         <div className={styles.container_form}>
-            <h1 style={{textAlign: "center", margin: 10, color: "gray"}}>Formulário de Atualização</h1>
+            <h1 id={responsive.form_responsive_h1} style={{textAlign: "center", margin: 10, color: "gray"}}>Formulário de Atualização</h1>
             <form onSubmit={submit}>
                 <InputForm name="Name" onEventClick={handleChange} placeholder="Nome" type="text" value = {tasks.Name}/>
                 <InputForm name="Prazo" onEventClick={handleChange} placeholder="Prazo" type="date" value = {tasks.Prazo}/>

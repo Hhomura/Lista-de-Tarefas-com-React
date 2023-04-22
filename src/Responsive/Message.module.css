@@ -1,0 +1,51 @@
+@media only screen and (max-width: 600px) {
+    .responsive_message{
+        width: 50%;
+        padding: 0.3em;
+        bottom: 1px solid #000;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 2em;
+        border-radius: 5px;
+    }
+    
+    .success{
+        color: #155724;
+        background-color: rgb(10, 210, 4);
+        border-color: white;
+    }
+    
+    .error{
+        color: red;
+        background-color: #F8D7DA;
+        border-color: #F5c6cb;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .responsive_message{
+        width: 50%;
+        padding: 0.5em;
+        bottom: 1px solid #000;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 2em;
+        border-radius: 5px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .responsive_message{
+        width: 50%;
+        padding: 1em;
+        bottom: 1px solid #000;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 2em;
+        border-radius: 5px;
+    }
+}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}

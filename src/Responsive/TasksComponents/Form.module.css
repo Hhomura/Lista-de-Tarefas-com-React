@@ -3,7 +3,7 @@
         box-shadow: 5px 10px 8px 10px #888888;
         padding: 30px;
         height: auto;
-        width: 40%;
+        width: 70%;
         margin: 0 auto;
         margin-bottom: 50px;
     }
@@ -66,6 +66,15 @@
 }
 
 @media only screen and (min-width: 600px) {
+
+    .form_responsive{
+        box-shadow: 5px 10px 8px 10px #888888;
+        padding: 30px;
+        height: auto;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
 
     #form_responsive_h1{
         font-size: 18px;

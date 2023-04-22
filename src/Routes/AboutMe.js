@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import Github from "../APIs/Github"
 import styles from './styles/AboutMe.module.css'
+import responsive from '../Responsive/AboutMe.module.css'
 import Cards from "../components/AboutMeComponents/Cards";
 
 export default(() =>{
@@ -54,11 +55,11 @@ export default(() =>{
      
 
     return(
-    <div className={styles.about_container}>
+    <div className={`${styles.about_container} ${responsive.responsive_aboutme}`}>
         <h1>About Me</h1>
-        <div className={styles.about_container_sub}>
+        <div className={`${styles.about_container_sub} ${responsive.responsive_aboutme_sub}`}>
             <img src={avatar}/>
-            <div className={styles.about_texts}>
+            <div className={`${styles.about_texts} ${responsive.responsive_aboutme_texts}`}>
                 <h2>{name}</h2>
                 <p>{descrition}</p>
             </div>

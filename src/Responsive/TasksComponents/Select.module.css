@@ -3,14 +3,18 @@
         padding: 10px;
         display: flex;
         flex-direction: column;
-        width: 130px;
+        width: 100%;
     }
     
     .container_select select{
-        padding: 13px;
+        padding: 10px;
         border-radius: 10px;
         color: rgb(83, 83, 83);
         margin-bottom: 15px;
+    }
+
+    .container_select select::placeholder{
+        font-size: 10px;
     }
     
     .container_form option{
@@ -23,7 +27,14 @@
         padding: 10px;
         display: flex;
         flex-direction: column;
-        width: 220px;
+        align-items: center;
+        width: 100%;
+    }
+    .container_select select{
+        border-radius: 10px;
+        color: rgb(83, 83, 83);
+        margin-bottom: 15px;
+        width: 90%;
     }
 }
 
@@ -32,7 +43,14 @@
         padding: 10px;
         display: flex;
         flex-direction: column;
-        width: 230px;
+        align-items: center;
+        width: 100%;
+    }
+    .container_select select{
+        border-radius: 10px;
+        color: rgb(83, 83, 83);
+        margin-bottom: 15px;
+        width: 90%;
     }
 }
 
@@ -44,13 +62,12 @@
         flex-direction: column;
         width: 380px;
     }
+
+    .container_select select::placeholder{
+        font-size: 20px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
-    .container_select{
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        width: 530px;
-    }
+  
 }

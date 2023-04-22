@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(to right, rgb(169, 0, 149), rgb(112, 0, 110), rgb(112, 0, 110), rgb(169, 0, 149));
+    margin-bottom: 50px;
 }
 
 .icon{

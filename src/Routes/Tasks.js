@@ -32,7 +32,7 @@ export default(() =>{
 
             setTimeout(() =>{
                 window.location.reload()
-            }, 1500);
+            }, 500);
 
         }).catch((error) => console.log("Erro: " + error));
     }
