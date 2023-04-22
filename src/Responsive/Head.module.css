@@ -1,0 +1,86 @@
+
+@media only screen and (max-width: 600px) {
+    .header_responsive{
+        height: 150px;
+    }
+    .header_responsive h2{
+        font-size: 25px;
+        box-shadow: 10px 10px 8px #1f1f1f;
+        transition: 0.3s;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: normal;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    .header_responsive{
+        height: 200px;
+    }
+
+    .header_responsive h2{
+        font-size: 30px;
+        box-shadow: 10px 10px 8px #1f1f1f;
+        transition: 0.3s;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: normal;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .header_responsive{
+        height: 300px;
+    }
+    
+    .header_responsive div{
+        height: 100%;
+        width: 100%;
+        background-color: rgba(240, 248, 255, 0.674);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header_responsive h2{
+        font-size: 40px;
+        box-shadow: 10px 10px 8px #1f1f1f;
+        transition: 0.3s;
+        background-color: white;
+        padding: 15px;
+        border-radius: 10px;
+        font-weight: normal;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    
+    .header_responsive div{
+        height: 100%;
+        width: 100%;
+        background-color: rgba(240, 248, 255, 0.674);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header_responsive h2{
+        font-size: 50px;
+        box-shadow: 10px 10px 8px #1f1f1f;
+        transition: 0.3s;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        font-weight: normal;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}

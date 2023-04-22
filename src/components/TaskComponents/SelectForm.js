@@ -1,8 +1,9 @@
 import styles from '../styles/Forms.module.css'
+import responsive from '../../Responsive/TasksComponents/Select.module.css'
 
 export default (({text, name, priority, onEventClick}) =>{
     return(
-        <div className={styles.container_select}>
+        <div className={`${styles.container_select} ${responsive.container_select}`}>
             <label htmlFor={name}> {text} </label>
             <select name={name} id={name} onChange={onEventClick}>
             <option>Selecione sua Opção</option>

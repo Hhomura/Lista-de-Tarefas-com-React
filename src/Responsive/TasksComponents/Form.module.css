@@ -1,0 +1,104 @@
+@media only screen and (max-width: 600px) {
+    .form_responsive{
+        box-shadow: 5px 10px 8px 10px #888888;
+        padding: 30px;
+        height: auto;
+        width: 40%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    #form_responsive_h1{
+        font-size: 15px;
+        text-align: "center";
+        margin: 10;
+        color: gray;
+    }
+    
+    .form_responsive form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .form_responsive_container_select {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 530px;
+    }
+    
+    .form_responsive_container_select select{
+        padding: 13px;
+        border-radius: 10px;
+        color: rgb(83, 83, 83);
+        margin-bottom: 15px;
+    }
+    
+    .form_responsive option{
+        padding: 10px;
+    }
+    
+    .form_responsive_container_select label{
+        color: gray;
+        font-weight: bold;
+    }
+    
+    .form_responsive_btn{
+        text-decoration: none;
+        border: 4px solid rgb(8, 182, 5);
+        background-color: rgb(8, 182, 5);
+        padding: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 10px;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        transition: 0.4s;
+    }
+    
+    .form_responsive_btn:hover{
+        color: white;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    #form_responsive_h1{
+        font-size: 18px;
+        color: gray;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #form_responsive_h1{
+        font-size: 25px;
+        margin: 10%;
+        color: gray;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    #form_responsive_h1{
+        font-size: 27px;
+        margin: 10%;
+        color: gray;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    #form_responsive_h1{
+        font-size: 27px;
+        margin: 10%;
+        color: gray;
+        text-align: center;
+    }
+}

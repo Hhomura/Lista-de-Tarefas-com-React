@@ -1,5 +1,6 @@
 import InputForm from "./InputForm"
 import styles from '../styles/Forms.module.css'
+import responsive from '../../Responsive/TasksComponents/Form.module.css'
 import SelectForm from "./SelectForm"
 import SubmitForm from "./SubmitForm"
 import { useEffect, useState } from "react"
@@ -35,8 +36,8 @@ export default(({taskData, handleSubmit, hiddenForm}) =>{
 
     return(
 
-        <div className={styles.container_form}>
-            <h1 style={{textAlign: "center", margin: 10, color: "gray"}}>Formulário de Adição de Task</h1>
+        <div className={`${styles.container_form} ${responsive.form_responsive}`}>
+            <h1 id={responsive.form_responsive_h1}>Formulário de Adição de Task</h1>
             <form onSubmit={submit}>
                 <InputForm name="Name" onEventClick={handleChange} placeholder="Nome" type="text"/>
                 <InputForm name="Prazo" onEventClick={handleChange} placeholder="Prazo" type="date"/>

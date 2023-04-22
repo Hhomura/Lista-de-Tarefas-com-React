@@ -34,7 +34,7 @@
     color: gray;
 }
 
-#btn{
+.btn{
     text-decoration: none;
     border: 4px solid gray;
     padding: 30px;
@@ -47,7 +47,7 @@
     transition: 0.4s;
 }
 
-#btn:hover{
+.btn:hover{
     color: white;
     background-color: rgb(85, 5, 69);;
     border: 4px solid rgb(85, 5, 69);;

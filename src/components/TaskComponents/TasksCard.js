@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import styles from '../styles/taskCard.module.css'
+import responsive from '../../Responsive/TasksComponents/TasksCards.module.css'
 import {BsFillTrashFill, BsFillPencilFill} from 'react-icons/bs'
 
 export default(({task, id, handlerChange}) =>{
@@ -17,7 +18,7 @@ export default(({task, id, handlerChange}) =>{
 
     return(    
         <div>
-                <div className={styles.card_container}>
+                <div className={`${styles.card_container} ${responsive.tasks_responsive}`}>
                     <div>
                         <h2>Nome da Tarefa: {task.Name}</h2>
                         <p>Prazo da Tarefa: {task.Prazo}</p>
@@ -25,7 +26,7 @@ export default(({task, id, handlerChange}) =>{
                         <p>Nivel de Prioridade: {task.prioritys && task.prioritys.name}</p>
                     </div>
                     
-                    <div className={styles.buttons}>
+                    <div className={`${styles.buttons} ${responsive.tasks_responsive_button}`}>
                         <button id={styles.delete} onClick={remove}>
                             <BsFillTrashFill/>
                         </button>

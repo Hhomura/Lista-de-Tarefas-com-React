@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import Forms from "../components/TaskComponents/Forms"
 import styles from './styles/Tasks.module.css'
+import responsive from '../Responsive/Tasks.module.css'
 import Database from "../APIs/Database";
 import Message from "../components/Layouts/Message";
 import TasksCard from "../components/TaskComponents/TasksCard";
@@ -57,9 +58,9 @@ export default(() =>{
     }, [])
 
     return(
-        <div className={styles.container_tasks}>
+        <div className={`${styles.container_tasks} ${responsive.tasks_responsive}`}>
             <h1>Tasks</h1>
-            <div className={styles.head}>
+            <div className={`${styles.head} ${responsive.head}`}>
                 <button onClick={showForm}>Add new Task+</button>
             </div>
             {message && (<Message type={type} message={message}/>)}

@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom"
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 import styles from '../styles/footer.module.css'
+import responsive from '../../Responsive/Footer.module.css'
 
 export default(() =>{
     return(
-        <footer className={styles.footer}>
+        <footer className={`${styles.footer} ${responsive.footer_responsive}`}>
             <div>
                 <ul>
                     <li><Link to="https://www.facebook.com/profile.php?id=100008516886501" target="_blank"><BsFacebook/></Link></li>

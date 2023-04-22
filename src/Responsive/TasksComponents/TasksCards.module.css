@@ -1,0 +1,156 @@
+@media only screen and (max-width: 600px) {
+    .tasks_responsive{
+
+    }
+
+    .tasks_responsive{
+        border: 3px solid black;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .tasks_responsive h2{
+        font-weight:bold;
+        margin-bottom: 10px;
+        color: rgb(86, 86, 86);
+        font-size: 20px;
+    }
+    
+    .tasks_responsive p{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 15px;
+        color: gray;
+    }
+    
+    .tasks_responsive_button{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .tasks_responsive_button button{
+      width: 70px;
+      height: 70px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .tasks_responsive{
+        border: 3px solid black;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .tasks_responsive h2{
+        font-weight:bold;
+        margin-bottom: 10px;
+        color: rgb(86, 86, 86);
+        font-size: 20px;
+    }
+    
+    .tasks_responsive p{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 15px;
+        color: gray;
+    }
+    
+    .tasks_responsive_button{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .tasks_responsive_button button{
+        margin: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .tasks_responsive{
+        border: 3px solid black;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .tasks_responsive h2{
+        font-weight:bold;
+        margin-bottom: 10px;
+        color: rgb(86, 86, 86);
+        font-size: 20px;
+    }
+    
+    .tasks_responsive p{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 15px;
+        color: gray;
+    }
+    
+    .tasks_responsive_button{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .tasks_responsive_button button{
+        margin: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .tasks_responsive{
+        border: 3px solid black;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .tasks_responsive h2{
+        font-weight:bold;
+        margin-bottom: 10px;
+        color: rgb(86, 86, 86);
+        font-size: 25px;
+    }
+    
+    .tasks_responsive p{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        color: gray;
+    }
+    
+    .tasks_responsive_button{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .tasks_responsive_button button{
+        margin: 10px;
+    }
+    
+}
+
+@media only screen and (min-width: 1200px) {}

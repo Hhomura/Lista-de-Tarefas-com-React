@@ -12,7 +12,6 @@
 .container_tasks .head{
     display: flex;
     justify-content: end;
-    margin-right: 80px;
 }
 
 .container_tasks button{

@@ -1,0 +1,112 @@
+@media only screen and (max-width: 600px) {
+
+    .form_responsive_input{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form_responsive_input input{
+        padding: 20px;
+        width: 110px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+    .form_responsive_input input::placeholder{
+        font-size: 15px;
+    }
+    
+    .form_responsive_input label{
+        color: gray;
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;
+    }
+ 
+}
+
+@media only screen and (min-width: 600px) {
+    .form_responsive_input{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form_responsive_input input{
+        padding: 20px;
+        width: 200px;
+        margin: 10px;
+        margin-left: -5px;
+        border-radius: 10px;
+    }
+    
+    .form_responsive_input input::placeholder{
+        font-size: 15px;
+    }
+    
+    .form_responsive_input label{
+        color: gray;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .form_responsive_input{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form_responsive_input input{
+        padding: 20px;
+        width: 200px;
+        margin: 10px;
+        margin-left: -5px;
+        border-radius: 10px;
+    }
+    
+    .form_responsive_input input::placeholder{
+        font-size: 15px;
+    }
+    
+    .form_responsive_input label{
+        color: gray;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .form_responsive_input{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form_responsive_input input{
+        padding: 20px;
+        width: 350px;
+        margin: 10px;
+        margin-left: -5px;
+        border-radius: 10px;
+    }
+    
+    .form_responsive_input input::placeholder{
+        font-size: 15px;
+    }
+    
+    .form_responsive_input label{
+        color: gray;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: start;
+    }
+    
+}
+
+@media only screen and (min-width: 1200px) {}

@@ -18,6 +18,10 @@
     font-size: 50px;
     box-shadow: 10px 10px 8px #1f1f1f;
     transition: 0.3s;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: normal;
 }
 
 .header h2:hover{

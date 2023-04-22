@@ -1,0 +1,56 @@
+@media only screen and (max-width: 600px) {
+    .container_select{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 130px;
+    }
+    
+    .container_select select{
+        padding: 13px;
+        border-radius: 10px;
+        color: rgb(83, 83, 83);
+        margin-bottom: 15px;
+    }
+    
+    .container_form option{
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .container_select{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 220px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container_select{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 230px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .container_select{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container_select{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 530px;
+    }
+}
